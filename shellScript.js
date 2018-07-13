@@ -70,7 +70,7 @@ cron.schedule('*/10 * * * * *', function(){
 const sendMail = (to, emailObject, attachment, callback) => {
 	var ses = new SES(env.aws);
 	const mail = mailcomposer({
-		from: 'hello@mycurbside.com',
+		from: "akashkr.sharma369@gmail.com",
 		to: to,
 		subject: emailObject.subject,
 		html: emailObject.body,
